@@ -1,11 +1,10 @@
-## Starter Code and GUI Application for Course 3 in the
-## Java Programming: Object Oriented Design of 
-## Data Structures Specialization:
-## Advanced Data Structures in Java
-## https://www.coursera.org/learn/advanced-data-structures
-
-
 # UCSD-Course-3-Graphs. Course 3 UC San Diego, Advanced Data Structures.
+### Starter Code and GUI Application for Course 3 in the
+### Java Programming: Object Oriented Design of 
+### Data Structures Specialization:
+### Advanced Data Structures in Java
+### https://www.coursera.org/learn/advanced-data-structures
+
 
 The project for this course is to build a mapping application with the ability to provide and visualize routes from one point to another in a map. The code developed is “back-end” code, i.e the data structures and algorithms used. A front-end interface was provided by USCD. The GUI is written using the Java FX libraries
 
