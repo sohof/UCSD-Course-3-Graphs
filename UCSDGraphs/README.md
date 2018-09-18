@@ -1,7 +1,5 @@
 # UCSD-Course-3-Graphs. Course 3 UC San Diego, Advanced Data Structures.
-### Starter Code and GUI Application for Course 3 in the
-### Java Programming: Object Oriented Design of 
-### Data Structures Specialization:
+### Starter Code and GUI Application for Course 3 in the Java Programming: Object Oriented Design of Data Structures Specialization:
 ### Advanced Data Structures in Java
 ### https://www.coursera.org/learn/advanced-data-structures
 
