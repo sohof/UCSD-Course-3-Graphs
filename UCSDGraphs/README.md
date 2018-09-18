@@ -1,11 +1,9 @@
-/-------------------------------------------------------------------------
-/ Starter Code and GUI Application for Course 3 in the
-/ Java Programming: Object Oriented Design of 
-/ Data Structures Specialization:
-/
-/ Advanced Data Structures in Java
-/ https://www.coursera.org/learn/advanced-data-structures
-/-------------------------------------------------------------------------
+## Starter Code and GUI Application for Course 3 in the
+## Java Programming: Object Oriented Design of 
+## Data Structures Specialization:
+## Advanced Data Structures in Java
+## https://www.coursera.org/learn/advanced-data-structures
+
 
 # UCSD-Course-3-Graphs. Course 3 UC San Diego, Advanced Data Structures.
 
@@ -27,7 +25,9 @@ Implemented dijkstra and A* search methods in the MapGraph class
 
 ## Week 5 and 6
 Theory on Route planning and NP-hard graph problems. Worked on an extention to the project. Choose to work on finding Travelling Salesman Path in the graph. Added the support class TSPPath.java and tspRoute method in the MapGraph class. The tsp algorithm uses was nearestNeighbor followed by 2-Optimize.
-The structure of the starter code
+
+
+# Overview starter code and packages
 
 Most of the starter code is dedicated to implementing the front-end, and you will not have to use it at all. The following are the packages was worked with in this course: (only listing classes in the packages that I worked with)
 ## basicgraph:
@@ -45,39 +45,40 @@ Contains a utility class, GraphLoader, for loading data from files. You will nee
 
 ## week3example:
 Contains the example code from week 3. Feel free to run this code as well as modify it. You should not need to touch any of the other packages, but if you are curious, you are more than welcome to poke around.
-Overview of the data files
+
+
+# Overview of the data files
 
 In addition to the starter code, there is also some data to begin working with, as well as a mechanism for collecting your own road data (explained in the last section of this reading).
 
 All provided data can be found in the data directory (at the same level as the src directory). In this directory you will find several sub-folders. Here's an explanation of what is in each:
-airports:
 
+## airports:
 Data about airports and routes served by United Airlines. These files use the extension .dat. You can load this data file into an object of type basicgraph.Graph using the GraphLoader.loadRoutes method.
 graders:
 
 Copies of the graph files used for grading each week. You can look at these files, but do not change these files or you will not be able to run our graders on your code to see what might have gone wrong.
-intersections:
 
+## intersections:
 Data suitable for upload into the map visualization tool in week 3. These files use the extension .intersections. You can generate files of this type from raw map files (see below) using the method GraphLoader.createIntersectionsFile. Be sure to save your newly created files into this same intersections folder and give them the .intersections extension so you keep track of their format. More on the process of generating these files can be found in the next section.
-maps:
 
+
+## maps:
 Raw map data files that are saved from the front-end data fetcher. These files use the extension .map. You can load these files into an empty roadgraph.MapGraph object or into an empty basicgraph.Graph object using the GraphLoader.loadRoadMap method (it's overloaded for both types). We provide several raw maps from various locations in the USA, but we encourage you to collect your own data using our application. More on this process can be found in the next section.
-mazes:
 
+## mazes:
 Maze files used in the example in week 3. These files use the extension .maze. We encourage you to create your own. You can load these files using the MazeLoader utility in the week2example package. testdata: An artificial map for use in testing in weeks 2, 3, 4 and 6. It is in the same .map format as the files in the maps folder. You can load this file into an empty roadgraph.MapGraph object or into an empty basicgraph.Graph object using the GraphLoader.loadRoadMap method (it's overloaded for both types).
 
 
 
-
-
----------------[ DESCRIPTION README BY COURSERA ]-----------------------
+## ----------[ DESCRIPTION README BY COURSERA ]---------------
 
 The files provided are skeleton code, as well as grading previews and 
 testing files to be used in completing the course programming 
 assignments. Additionally, you are provided a runnable JavaFX program 
 which will help to test and demonstrate your implementations.
 
--------------------------------------------------------[ FILES BY WEEK ]--
+## --[ FILES BY WEEK ]--
 
 Below are the files introduced in each week and used in each week
 of the course. See file for description...
@@ -101,7 +102,7 @@ geography.GeographicPoint.java
 geography.RoadSegment.java
 util.GraphLoader.java
 
----------------------------------------------------------------[ SETUP ]-- 
+## --[ SETUP ]-- 
 
 Importing Project into eclipse:
 	1. Create a new Java Project in your workspace
